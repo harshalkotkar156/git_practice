@@ -20,10 +20,6 @@ int getFactorialSum(int n)
         vec[i] = getFact(i,vec);
     }
     int ans=0;
-    for(int i:vec){
-        cout<<i<<" ";
-        ans+=i;
-    }
     cout<<endl;
     return ans;
 }
@@ -32,6 +28,6 @@ int getFactorialSum(int n)
 int main()
 {
     int n = 5;    
-    cout<<getFactorialSum(5)<<endl;
+    cout<<getFactorialSum(3)<<endl;
     return 0;
 }
